@@ -40,7 +40,7 @@ function Content() {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/api/generate', {
+      const response = await axios.post('https://crexo-backend.onrender.com/api/generate', {
         prompt: inputText.trim(),
         path: path,
       }, {
